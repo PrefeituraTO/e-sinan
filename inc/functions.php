@@ -1,7 +1,7 @@
 <?php
 
 function getURL(){
-    return "//".getEnv(URL);
+    return "//".@getEnv(URL);
 }
 
 function conecta(){
