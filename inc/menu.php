@@ -9,14 +9,10 @@
       </button>
       <a class="navbar-brand" href="/">e-SINAN</a>
      </div>
-<?php
-   if(@$_SESSION['APP']){
-?>     
      <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-       <li></li>
+       <li> </li>
       </ul>
      </div><!--/.navbar-collapse -->
-<?php } ?>     
     </div>
    </div>
